@@ -1,1 +1,536 @@
-# enhansome-k8s-security
+<a href="https://kubernetes.io/">
+    <img src="https://github.com/magnologan/awesome-k8s-security/blob/master/logo.png"
+         alt="Kubernetes logo" title="Kubernetes" height="100" width="100" />
+</a></br>
+
+# Awesome Kubernetes (K8s) Security with stars
+
+A curated list for Kubernetes (K8s) Security resources such as articles, books, tools, talks and videos.
+
+# Disclaimer
+
+Most of the resources are in English, the ones that aren't will be flagged as such. All the content in this list is public and free, please use them for educational purposes only!
+
+Not all the tools have been tested or reviewed, use them at your own risk! Also, I don't consider myself a K8s Security expert, I'm just learning and helping others learn along with me. Thanks!
+
+# Contents
+
+These are the main topics of this Awesome Kubernetes (K8s) Security List. Everything related to the Security of Kubernetes (and its components such as CoreDNS, etcd) either for learning, breaking or defending it, will be added down below. If you have any other good links or recommendations, feel free to submit a PR!
+
+* [💊 The Basics](#the-basics)
+* [💼 Official Pages](#official-pages)
+* [📹 Talks and Videos](#talks-and-videos)
+* [📰 Blogs and Articles](#blogs-and-articles)
+* [🗒️ Books](#books)
+* [📆 Certifications](#certifications)
+* [🔥 CVEs](#cves)
+* [📑 Slides](#slides)
+* [🧪 Trainings](#trainings)
+* [🐾 Repositories](#repositories--tools)
+* [📂 Papers](#papers)
+* [🎤 Podcasts](#podcasts)
+* [🧰 Jobs](#jobs)
+* [📡 Community](#community)
+
+## The Basics
+
+To understand about Kubernetes Security you first need to understand the basics of how Kubernetes works and all the components involved. Here's some links and materials to help you with that journey:
+
+[Kubernetes in 5 mins](https://www.youtube.com/watch?v=PH-2FfFD2PU)
+
+[Kubernetes Concepts Explained in 9 minutes!](https://www.youtube.com/watch?v=QJ4fODH6DXI)
+
+[Kubernetes 101](https://www.aquasec.com/resources/kubernetes-101/)
+
+[Kubernetes: Getting Started](https://azure.microsoft.com/en-us/overview/kubernetes-getting-started/)
+
+[Kubernetes The Hard Way - Kelsey Hightower](https://github.com/kelseyhightower/kubernetes-the-hard-way) ⭐ 49,442 | 🐛 50 | 📅 2025-04-10
+
+[Kubernetes Challenge](https://github.com/hector-vido/kubernetes-challenge) 🇧🇷
+
+[Kubernetes de K a S - Erlon Pinheiro](https://github.com/erlonpinheiro/kubernetes_de_k_a_s) ⭐ 7 | 🐛 2 | 🌐 HTML | 📅 2021-02-24 🇧🇷
+
+[Kubernetes Training](https://github.com/ashishrpandey/kubernetes-training) ⭐ 29 | 🐛 1 | 🌐 JavaScript | 📅 2021-12-01
+
+[Introduction to Kubernetes](https://www.edx.org/course/introduction-to-kubernetes)
+
+[Kube Academy](https://kube.academy/)
+
+[Game of Pods (KodeKloud)](https://kodekloud.com/p/game-of-pods)
+
+[Gist of Kubernetes Resources](https://gist.github.com/dims/bb219a4a8d9cb88dc2a2dc1f11a537c6)
+
+[Uncomplicating Kubernetes (Jeferson Noronha aka LinuxTips)](https://www.youtube.com/watch?v=zz1p3gjyHgc) 🇧🇷
+
+[Kubernetes Security Checklist and Requirements](https://github.com/Vinum-Security/kubernetes-security-checklist) ⭐ 486 | 🐛 5 | 📅 2021-12-13
+
+## Official Pages
+
+[Kubernetes.io](https://kubernetes.io/)
+
+[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 124,473 | 🐛 2,868 | 🌐 Go | 📅 2026-08-12
+
+[Kubernetes Security and Disclosure Information](https://kubernetes.io/docs/reference/issues-security/security/)
+
+[Cloud Native Security](https://kubernetes.io/docs/concepts/security/overview/)
+
+[Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
+
+[CNCF STAG - Security Technical Advisory Group](https://github.com/cncf/tag-security) ⚠️ Archived
+
+[CNCF STAG Meeting Notes](https://docs.google.com/document/d/170y5biX9k95hYRwprITprG6Mc9xD5glVn-4mB2Jmi2g/edit)
+
+[CNCF STAG Mailing List](https://lists.cncf.io/g/cncf-tag-security)
+
+[Kubernetes SIG Security](https://github.com/kubernetes/community/tree/master/sig-security) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes SIG Security Meeting Notes](https://docs.google.com/document/d/1GgmmNYN88IZ2v2NBiO3gdU8Riomm0upge_XNVxEYXp0/edit)
+
+[Kubernetes SIG Auth (Authorization, Authentication, and Cluster Security Policy)](https://github.com/kubernetes/community/tree/master/sig-auth) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes Security Audit 2019 Results](https://github.com/kubernetes/community/tree/master/sig-security/security-audit-2019) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes Security Audit 2021 RFP](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2021/RFP.md) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+## Talks and Videos
+
+[Compromising Kubernetes Cluster by Exploiting RBAC Permissions - Eviatar Gerzi, CyberArk (RSA 2020)](https://www.youtube.com/watch?v=1LMo0CftVC4)
+
+[Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down - Carson Anderson, DOMO](https://www.youtube.com/watch?v=90kZRyPcRZw)
+
+[Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down - Carson Anderson, DOMO  (Extended Version)](https://vimeo.com/245778144/4d1d597c5e)
+
+[Advanced Persistence Threats: The Future of Kubernetes Attacks (RSAC 2020)](https://www.youtube.com/watch?v=CH7S5rE3j8w)
+
+[Kubernetes Security Best Practices - Ian Lewis, Google](https://www.youtube.com/watch?v=wqsUfvRyYpw)
+
+[Securing Kubernetes Secrets (Cloud Next '19)](https://www.youtube.com/watch?v=DNKcRUyz4Hw)
+
+[Jay Beale - Attacking and Defending Kubernetes - DEF CON 27 Packet Hacking Village](https://www.youtube.com/watch?v=2fmAuR3rnBo)
+
+[The State of Kubernetes Security - Liz Rice](https://www.youtube.com/watch?v=_l56oUxHSio)
+
+[DIY Pen-Testing for Your Kubernetes Cluster - Liz Rice, Aqua Security](https://www.youtube.com/watch?v=fVqCAUJiIn0)
+
+[Kubernetes Security 101: Best Practices to Secure your Cluster](https://www.youtube.com/watch?v=d-pIWfDaZK8\&t=3408s)
+
+[Kubernetes Security 101: OWASP Natal Virtual Meeting](https://youtu.be/CF-ScdbhU5o) 🇧🇷
+
+[Rory's McCune **@raesene** Kubernetes Security Lab | Rawkode Live workshop](https://youtu.be/Srd1qqxDReA)
+
+## Blogs and Articles
+
+[Cloud native security for your clusters](https://kubernetes.io/blog/2020/11/18/cloud-native-security-for-your-clusters)
+
+[Container Security: Examining Potential Threats to the Container Environment](https://www.trendmicro.com/vinfo/us/security/news/security-technology/container-security-examining-potential-threats-to-the-container-environment)
+
+[Kubernetes securityContext: Linux capabilities in Kubernetes](https://snyk.io/blog/kubernetes-securitycontext-linux-capabilities/)
+
+[10 Kubernetes Security Context settings you should understand](https://snyk.io/blog/10-kubernetes-security-context-settings-you-should-understand/)
+
+[Kubesploit: A New Offensive Tool for Testing Containerized Environments](https://www.cyberark.com/resources/threat-research-blog/kubesploit-a-new-offensive-tool-for-testing-containerized-environments)
+
+[Securing Kubernetes Clusters by Eliminating Risky Permissions](https://www.cyberark.com/resources/threat-research-blog/securing-kubernetes-clusters-by-eliminating-risky-permissions)
+
+[Using Kubelet Client to Attack the Kubernetes Cluster](https://www.cyberark.com/resources/threat-research-blog/using-kubelet-client-to-attack-the-kubernetes-cluster)
+
+[Eight Ways to Create a Pod](https://www.cyberark.com/resources/threat-research-blog/eight-ways-to-create-a-pod)
+
+[Risk8s Business: Risk Analysis of Kubernetes Clusters](https://tldrsec.com/guides/kubernetes/)
+
+[How to Set Up and Manage Logs with Kubernetes](https://iamondemand.com/blog/how-to-set-up-and-manage-logs-with-kubernetes/)
+
+[The Current State of Kubernetes Threat Modelling](https://www.marcolancini.it/2020/blog-kubernetes-threat-modelling/)
+
+[Hildegard: New TeamTNT Cryptojacking Malware Targeting Kubernetes](https://unit42.paloaltonetworks.com/hildegard-malware-teamtnt/)
+
+[The Basics of Keeping Kubernetes Clusters Secure](https://www.trendmicro.com/vinfo/us/security/news/security-technology/the-basics-of-keeping-your-kubernetes-cluster-secure-part-1)
+
+[The Basics of Keeping Kubernetes Cluster Secure: Worker Nodes and Related Components](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/the-basics-of-keeping-kubernetes-cluster-secure-worker-nodes-and-related-components)
+
+[How to Secure Your Kubernetes Cluster](https://cloudnativenow.com/topics/cloudnativesecurity/how-to-secure-your-kubernetes-cluster/)
+
+[Kubernetes Security 101: Best Practices To Secure Your Cluster](https://www.devseccon.com/kubernetes-security-101-best-practices-to-secure-your-cluster-secadvent-day-17/)
+
+[Kubernetes Security](https://kubernetes-security.info/)
+
+[Introducing Kubernetes Goat](https://blog.madhuakula.com/introducing-kubernetes-goat-8624f6d70e9e)
+
+[Threat Matrix for Kubernetes](https://www.microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes/)
+
+[Open Sourcing the Kubernetes Security Audit](https://www.cncf.io/blog/2019/08/06/open-sourcing-the-kubernetes-security-audit/)
+
+[Amazon EKS Best Practices Guide for Security](https://aws.github.io/aws-eks-best-practices/)
+
+[Protecting Kubernetes: The Kubernetes Attack Matrix and How to Mitigate Its Threats](https://web.archive.org/web/20210827104409/https://security.stackrox.com/rs/219-UEH-533/images/StackRox-Whitepaper-Kubernetes_Attack_Matrix_and_Mitigation.pdf)
+
+[Securing the 4Cs of Cloud Native](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/securing-the-4-cs-of-cloud-native-systems-cloud-cluster-container-and-code)
+
+[CVE-2018-18264 Privilege escalation through Kubernetes dashboard](https://sysdig.com/blog/privilege-escalation-kubernetes-dashboard)
+
+[Certified Kubernetes Security Specialist (CKS) exam guide](https://medium.com/cooking-with-azure/certified-kubernetes-security-specialist-cks-exam-guide-a8fc2b4c47ea)
+
+[A Deep Dive Into Kubernetes Schema Validation](https://www.datree.io/resources/kubernetes-schema-validation)
+
+[A Beginner-Friendly Introduction to Kubernetes](https://towardsdatascience.com/a-beginner-friendly-introduction-to-kubernetes-540b5d63b3d7)
+
+[Managing Kubernetes without losing your cool](https://marcusnoble.co.uk/2022-07-04-managing-kubernetes-without-losing-your-cool/)
+
+[Kubernetes: Detailed security assessment guidelines and necessary checklist](https://medium.com/@seifeddinerajhi/kubernetes-security-assessment-guidelines-and-necessary-checklist-9a326f341b68)
+
+[TeamTNT Targets Kubernetes, Nearly 50,000 IPs Compromised in Worm-like Attack](https://www.trendmicro.com/en_us/research/21/e/teamtnt-targets-kubernetes--nearly-50-000-ips-compromised.html)
+
+[Protecting Your Krew: A Security Analysis of kubectl Plug-ins](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/protecting-your-krew-a-security-analysis-of-kubectl-plug-ins)
+
+[The Fault in Our Kubelets: Analyzing the Security of Publicly Exposed Kubernetes Clusters](https://www.trendmicro.com/en_us/research/22/e/the-fault-in-our-kubelets-analyzing-the-security-of-publicly-exposed-kubernetes-clusters.html)
+
+[A Deep Dive Into Kubernetes Threat Modeling](https://www.trendmicro.com/vinfo/us/security/news/security-technology/a-deep-dive-into-kubernetes-threat-modeling)
+
+[Enhancing Software Supply-Chain Security: Navigating SLSA Standards and the MITRE ATT\&CK Framework](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/enhancing-software-supply-chain-security-navigating-slsa-standards-and-the-mitre-att-and-ck-framework)
+
+[Understanding the Kubernetes Security Triad: Image Scanning, Admission Controllers, and Runtime Security](https://www.trendmicro.com/vinfo/us/security/news/virtualization-and-cloud/understanding-the-kubernetes-security-triad-image-scanning-admission-controllers-and-runtime-security)
+
+[Mitigating the Threat of Sidecar Container Injection](https://www.trendmicro.com/vinfo/us/security/news/security-technology/mitigating-the-threat-of-sidecar-container-injection)
+
+[Abusing Argo CD, Helm, and Artifact Hub: An Analysis of Supply Chain Attacks in Cloud-Native Applications](https://www.trendmicro.com/vinfo/us/security/news/vulnerabilities-and-exploits/abusing-argo-cd-helm-and-artifact-hub-an-analysis-of-supply-chain-attacks-in-cloud-native-applications)
+
+## Books
+
+[Hacking Kubernetes by Andrew Martin, Michael Hausenblas](https://learning.oreilly.com/library/view/hacking-kubernetes/9781492081722/)
+
+[Learn Kubernetes Security by Kaizhe Huang and Pranjal Jumde](https://www.amazon.com/Learn-Kubernetes-Security-orchestrate-microservices-ebook/dp/B087Q9G51R)
+
+[Kubernetes Security by Liz Rice and Michael Hausenblas](https://info.aquasec.com/kubernetes-security)
+
+[Container Security by Liz Rice](https://containersecurity.tech/)
+
+[Kubernetes: Up and Running, Second Edition by Brendan Burns, Joe Beda and Kelsey Hightower](https://azure.microsoft.com/en-us/resources/kubernetes-up-and-running/)
+
+[The Kubernetes Book by Nigel Poulton and Pushkar Joglekar](https://www.amazon.com/dp/B072TS9ZQZ)
+
+[Kubernetes Patterns: Reusable Elements for Designing Cloud-Native Applications by Bilgin Ibryam & Roland Huß](https://www.redhat.com/cms/managed-files/cm-oreilly-kubernetes-patterns-ebook-f19824-201910-en.pdf)
+
+[Securing Kubernetes Secrets by Alex Soto Bueno and Andrew Block](https://www.manning.com/books/securing-kubernetes-secrets)
+
+[Kubernetes in Action, Second Edition by Marko Lukša](https://www.manning.com/books/kubernetes-in-action-second-edition)
+
+[Google Anthos by Antonio Gulli et al.](https://www.manning.com/books/google-anthos-in-action)
+
+[Kubernetes for Developers by William Denniss](https://www.manning.com/books/kubernetes-for-developers)
+
+[Kubernetes on Windows by Jay Vyas and James Sturtevant](https://www.manning.com/books/kubernetes-on-windows)
+
+[Core Kubernetes by Chris Love](https://www.manning.com/books/core-kubernetes)
+
+[Kubernetes Security with M9sweeper](https://www.amazon.com/-/es/Jacob-Beasley/dp/B0BT6RHGR3)
+
+## Certifications
+
+* [Certified Kubernetes Administrator (CKA) Course](https://github.com/kodekloudhub/certified-kubernetes-administrator-course) ⭐ 10,730 | 🐛 29 | 🌐 Shell | 📅 2026-02-15
+
+* [Certified Kubernetes Security Specialist (CKS)](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) ⭐ 2,121 | 🐛 0 | 🌐 AGS Script | 📅 2026-03-14
+
+* [Certified Kubernetes Security Specialist Study Guide](https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide) ⭐ 430 | 🐛 0 | 🌐 HCL | 📅 2021-01-04
+
+* [References for CKS Exam Objectives](https://github.com/abdennour/certified-kubernetes-security-specialist) ⭐ 149 | 🐛 1 | 📅 2023-11-14
+
+* [CKAD](https://www.cncf.io/certification/ckad/)
+
+* [CKAD Self-Study Course](https://rx-m.com/ckad-online-self-study-training-certification/) - free course to practice for the CKAD exam
+
+* [CKA](https://www.cncf.io/certification/cka/)
+
+* [CKA Self-Study Course](https://rx-m.com/cka-online-training/) - free course to practice for the CKA exam
+
+* [CKS](https://www.cncf.io/certification/cks/)
+
+* [CKS Self-Study Course](https://rx-m.com/cks-self-study-course/) - free course to practice for the CKS exam
+
+* [Certified Cloud Native Security Expert - CCNSE](https://www.practical-devsecops.com/certified-cloud-native-security-expert/)
+
+* [Certified Container Security Expert - CCSE](https://www.practical-devsecops.com/certified-container-security-expert/)
+
+* [CKSS-Certified-Kubernetes-Security-Specialist](https://github.com/ibrahimjelliti/CKSS-Certified-Kubernetes-Security-Specialist)
+
+## CVEs
+
+[Exploring container security: Vulnerability management in open-source Kubernetes](https://cloud.google.com/blog/products/containers-kubernetes/exploring-container-security-vulnerability-management-in-open-source-kubernetes)
+
+[CVE-2018-18264](https://nvd.nist.gov/vuln/detail/CVE-2018-18264) - Kubernetes Dashboard bypass authentication
+
+[CVE-2019-11247](https://nvd.nist.gov/vuln/detail/CVE-2019-11247) - kube-apiserver mistakenly allows access to a cluster-scoped custom resource
+
+[CVE-2019-11249](https://nvd.nist.gov/vuln/detail/CVE-2019-11249) - kubectl cp command tar exploit
+
+[CVE-2020-8558 PoC](https://github.com/tabbysable/POC-2020-8558) ⭐ 43 | 🐛 0 | 🌐 Python | 📅 2020-07-22 -  kube-proxy unexpectedly makes localhost-bound host services available to others on the network
+
+[CVE-2020-8559 PoC](https://github.com/tabbysable/POC-2020-8559) ⭐ 20 | 🐛 1 | 🌐 Shell | 📅 2020-07-22 - kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests
+
+[CVE-2020-8559 PoC 2](https://github.com/tdwyer/CVE-2020-8559) ⭐ 54 | 🐛 0 | 📅 2020-07-23 - kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests
+
+[CVE-2020-10749 PoC](https://github.com/knqyf263/CVE-2020-10749) ⭐ 25 | 🐛 1 | 🌐 Python | 📅 2020-06-11 - malicious containers in Kubernetes clusters to perform man-in-the-middle (MitM) attacks
+
+[CVE-2021-25735](https://nvd.nist.gov/vuln/detail/CVE-2021-25735) - kube-apiserver allow node updates to bypass a Validating Admission Webhook
+
+[CVE-2021-25737](https://nvd.nist.gov/vuln/detail/CVE-2021-25737) - user may be able to redirect pod traffic to private networks on a node
+
+[CVE-2021-25740](https://nvd.nist.gov/vuln/detail/CVE-2021-25740) -  enable users to send network traffic to locations they would otherwise not have access to via a confused deputy attack
+
+[CVE-2021-25741](https://nvd.nist.gov/vuln/detail/CVE-2021-25741) - user may be able to create a container with subpath volume mounts to access files & directories outside of the volume
+
+[CVE-2021-30465](https://nvd.nist.gov/vuln/detail/CVE-2021-30465) - runc container filesystem breakout via directory traversal
+
+## Slides
+
+[Communication is Key - Understanding Kubernetes Networking (KubeCon EU 2020)](https://static.sched.com/hosted_files/kccnceu20/3d/Communication_is_Key.pdf)
+
+[Seccomp Profiles and you: A practical guide (KubeCon EU 2020)](https://www.slideshare.net/DuffieCooley/seccomp-profiles-and-you-a-practical-guide)
+
+[Advanced Persistence Threats: The Future of Kubernetes Attacks (KubeCon EU 2020)](https://speakerdeck.com/iancoldwater/advanced-persistence-threats-the-future-of-kubernetes-attacks)
+
+[Help! My Cluster Is On The Internet!](https://bit.ly/SamK8sSec)
+
+## Trainings
+
+[Secure Kubernetes](https://securekubernetes.com/)
+
+[Cloud Native Security Tutorial](https://tutorial.kubernetes-security.info/)
+
+[Kubernetes Security (Advanced Concepts)](https://acloudguru.com/course/kubernetes-security-advanced-concepts)
+
+[Kubernetes Goat Guide](https://madhuakula.com/kubernetes-goat/)
+
+[Certified Cloud Native Security Expert - CCNSE by Practical DevSecOps](https://www.practical-devsecops.com/certified-cloud-native-security-expert/)
+
+[Certified Container Security Expert - CCSE by Practical DevSecOps](https://www.practical-devsecops.com/certified-container-security-expert/)
+
+[Katacoda Kubernetes Goat Videos](https://katacoda.com/madhuakula/scenarios/kubernetes-goat)
+
+[Attacking and Auditing Docker Containers and Kubernetes Clusters](https://github.com/Kloudle/attacking-and-auditing-docker-containers-and-kubernetes-clusters-training) ⭐ 13 | 🐛 0 | 🌐 Shell | 📅 2021-03-31
+
+[A Cloud Guru Kubernetes Security](https://acloudguru.com/course/kubernetes-security)
+
+[SANS Cloud-Native Security Defending Containers and Kubernetes](https://www.sans.org/event/stay-sharp-blue-team-ops-and-cloud-dec-2020/course/cloud-native-security-defending-containers-kubernetes)
+
+[Tutorial: Getting Started With Cloud-Native Security - KubeCon EU 2020 - Liz Rice & Michael Hausenblas](https://youtu.be/MisS3wSds40)
+
+[Control Plane Security Training](https://control-plane.io/training/)
+
+[Kubernetes CKS Exam Simulator](https://killer.sh/cks)
+
+[Kubernetes Security Workshop](https://github.com/scotty-c/kubernetes-security-workshop) ⭐ 64 | 🐛 0 | 🌐 Shell | 📅 2019-05-02
+
+[Linux Academy - Kubernetes Security](https://github.com/linuxacademy/content-kubernetes-security) ⭐ 50 | 🐛 2 | 🌐 Shell | 📅 2020-03-19
+
+[Mumshad's KodeCloud Certified kubernetes security specialist **cks**](https://kodekloud.com/p/certified-kubernetes-security-specialist-cks)
+
+## Repositories / Tools
+
+### Learning
+
+[kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+
+[krew](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
+
+[Bust-a-Kube](https://www.bustakube.com/)
+
+[kube-goat](https://github.com/ksoclabs/kube-goat) ⭐ 133 | 🐛 15 | 🌐 Shell | 📅 2023-12-15
+
+[Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) ⭐ 5,744 | 🐛 28 | 🌐 HTML | 📅 2026-04-16
+
+[Kubernetes Networking Labs for KubeCon EU 2020 Talk](https://github.com/korvus81/k8s-net-labs) ⭐ 96 | 🐛 4 | 🌐 Shell | 📅 2020-09-08
+
+[CNCF Security Audits](https://github.com/magnologan/cncf-security-audits) ⭐ 39 | 🐛 0 | 📅 2021-01-13
+
+[Kube Security Lab: Learn from Kuberenetes attacks using Ansible and KinD](https://github.com/raesene/kube_security_lab) ⭐ 283 | 🐛 4 | 🌐 Python | 📅 2026-03-19
+
+### Attacking
+
+[kdigger](https://github.com/quarkslab/kdigger) ⭐ 486 | 🐛 1 | 🌐 Go | 📅 2025-11-07
+
+[kube-hunter](https://github.com/aquasecurity/kube-hunter) ⭐ 5,077 | 🐛 82 | 🌐 Python | 📅 2024-03-19
+
+[kubeletctl](https://github.com/cyberark/kubeletctl) ⭐ 903 | 🐛 6 | 🌐 Go | 📅 2025-08-06
+
+[kubesploit](https://github.com/cyberark/kubesploit) ⭐ 1,226 | 🐛 0 | 🌐 Go | 📅 2025-02-03
+
+[Peirates](https://github.com/inguardians/peirates) ⭐ 1,472 | 🐛 25 | 🌐 Go | 📅 2026-07-03
+
+### Defending
+
+[KubeArmor - Cloud-native runtime protection](https://github.com/kubearmor/KubeArmor) ⭐ 2,577 | 🐛 420 | 🌐 Go | 📅 2026-08-12
+
+[Kubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT\&CK® frameworks](https://github.com/armosec/kubescape) ⭐ 11,600 | 🐛 120 | 🌐 Go | 📅 2026-08-12
+
+[segspec - Extract network dependencies from app configs and generate Kubernetes NetworkPolicies](https://github.com/dormstern/segspec) ⭐ 16 | 🐛 0 | 🌐 Go | 📅 2026-05-06
+
+[KubiScan](https://github.com/cyberark/KubiScan) ⭐ 1,430 | 🐛 6 | 🌐 Python | 📅 2025-05-25
+
+[Kubernetes Audit by Trail of Bits](https://github.com/trailofbits/audit-kubernetes) ⚠️ Archived
+
+[kubeaudit](https://github.com/Shopify/kubeaudit) ⚠️ Archived
+
+[Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper) ⭐ 5,310 | 🐛 144 | 🌐 TypeScript | 📅 2026-06-01
+
+[Defensia - WAF, intrusion detection, and automated blocking for Kubernetes nodes and Linux servers](https://github.com/defensia/agent) ⭐ 4 | 🐛 9 | 🌐 Go | 📅 2026-08-12
+
+[falco](https://github.com/falcosecurity/falco) ⭐ 9,261 | 🐛 70 | 🌐 C++ | 📅 2026-08-03
+
+[kubesec](https://github.com/controlplaneio/kubesec) ⭐ 1,472 | 🐛 28 | 🌐 Go | 📅 2026-07-10
+
+[kube-bench](https://github.com/aquasecurity/kube-bench) ⭐ 8,139 | 🐛 94 | 🌐 Go | 📅 2026-08-10
+
+[trivy](https://github.com/aquasecurity/trivy) ⭐ 37,379 | 🐛 247 | 🌐 Go | 📅 2026-08-12
+
+[MKIT](https://github.com/darkbitio/mkit) ⚠️ Archived
+
+[kubetap](https://github.com/soluble-ai/kubetap) ⭐ 644 | 🐛 19 | 🌐 Go | 📅 2023-08-30
+
+[kube-forensics](https://github.com/keikoproj/kube-forensics) ⭐ 234 | 🐛 25 | 🌐 Go | 📅 2026-07-16
+
+[k8s-security-dashboard](https://github.com/k8scop/k8s-security-dashboard) ⭐ 132 | 🐛 6 | 🌐 Python | 📅 2023-10-18
+
+[CIS Kubernetes Benchmark - InSpec Profile](https://github.com/dev-sec/cis-kubernetes-benchmark) ⭐ 312 | 🐛 3 | 🌐 Ruby | 📅 2024-08-09
+
+[Kube PodSecurityPolicy Advisor](https://github.com/sysdiglabs/kube-psp-advisor) ⭐ 327 | 🐛 7 | 🌐 Go | 📅 2023-10-11
+
+[Inspektor Gadget](https://github.com/kinvolk/inspektor-gadget) ⭐ 2,909 | 🐛 421 | 🌐 C | 📅 2026-08-12
+
+[Starboard](https://github.com/aquasecurity/starboard) ⭐ 1,379 | 🐛 60 | 🌐 Go | 📅 2026-06-10
+
+[Advocacy Site for Kubernetes RBAC](https://github.com/mhausenblas/rbac.dev) ⭐ 257 | 🐛 1 | 📅 2026-03-03
+
+[Helm-Snyk](https://github.com/snyk-labs/helm-snyk) ⚠️ Archived
+
+[Krane](https://github.com/appvia/krane) ⭐ 744 | 🐛 55 | 🌐 Ruby | 📅 2026-02-13
+
+[rakkess](https://github.com/corneliusweig/rakkess) ⭐ 1,400 | 🐛 15 | 🌐 Go | 📅 2023-04-05
+
+[kubectl-who-can](https://github.com/aquasecurity/kubectl-who-can) ⭐ 917 | 🐛 15 | 🌐 Go | 📅 2024-07-17
+
+[Kubernetes Security - Best Practice Guide](https://github.com/freach/kubernetes-security-best-practice) ⭐ 2,706 | 🐛 12 | 📅 2019-09-11
+
+[External Secrets](https://github.com/external-secrets/external-secrets) ⭐ 6,787 | 🐛 251 | 🌐 Go | 📅 2026-08-12
+
+[kubescape](https://github.com/armosec/kubescape) ⭐ 11,600 | 🐛 120 | 🌐 Go | 📅 2026-08-12
+
+[KubeLinter](https://github.com/stackrox/kube-linter) ⭐ 3,494 | 🐛 89 | 🌐 Go | 📅 2026-08-12
+
+[Open Policy Agent](https://www.openpolicyagent.org)
+
+[Gatekeeper](https://github.com/open-policy-agent/gatekeeper) ⭐ 4,261 | 🐛 172 | 🌐 Go | 📅 2026-08-10
+
+[Kyverno](https://kyverno.io)
+
+[Kubewarden](https://kubewarden.io)
+
+[KICS - Keeping Infrastructure as Code Secure](https://github.com/Checkmarx/kics) ⭐ 2,684 | 🐛 325 | 🌐 Open Policy Agent | 📅 2026-08-12
+
+[cnspec - cloud-native security and policy project](https://cnspec.io)
+
+[M9sweeper - Kubernetes Security Platform](https://github.com/m9sweeper/m9sweeper) ⭐ 266 | 🐛 16 | 🌐 TypeScript | 📅 2024-07-12
+
+[ReleaseRun K8s Deprecation Checker](https://releaserun.com/tools/k8s-deprecation-checker/)
+
+[ReleaseRun K8s YAML Security Linter](https://releaserun.com/tools/kubernetes-security-linter/)
+
+[Audit Radar](https://github.com/vsenatorov/auditvision) ⭐ 17 | 🐛 0 | 🌐 Go | 📅 2026-03-29
+
+[vens - Prioritize vulnerabilities by real risk, not just CVSS. Takes a Trivy or Grype scan and scores each CVE based on your system's actual context.](https://github.com/venslabs/vens) ⭐ 8 | 🐛 17 | 🌐 Go | 📅 2026-08-10
+
+[BunkerWeb - Open-source WAF/WAAP, reverse proxy, and Kubernetes Ingress/Gateway API controller for securing web applications and APIs](https://github.com/bunkerity/bunkerweb) ⭐ 10,803 | 🐛 178 | 🌐 Python | 📅 2026-08-12
+
+[KubeStellar Console - Open source AI-powered multi-cluster Kubernetes dashboard](https://github.com/kubestellar/console) ⭐ 127 | 🐛 19 | 🌐 TypeScript | 📅 2026-08-13
+
+[PII-Shield - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs](https://github.com/pii-shield/pii-shield) ⭐ 163 | 🐛 22 | 🌐 Go | 📅 2026-08-12
+
+## Papers
+
+[Kubernetes Security Assessment - Final Report - May 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes Security Whitepaper - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes Threat Model - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Threat%20Model.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[Kubernetes Attack Tree](https://github.com/cncf/financial-user-group/tree/master/projects/k8s-threat-model) ⚠️ Archived
+
+[Attacking Kubernetes - A Guide for Administrators and Penetration Testers](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/AtredisPartners_Attacking_Kubernetes-v1.0.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+
+[CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes/)
+
+[Kubernetes é seguro por default ou à prova de má configuração?](https://p0ssuidao.medium.com/kubernetes-%C3%A9-seguro-por-default-ou-aprova-de-m%C3%A1-configura%C3%A7%C3%A3o-9d3bccc2f342) 🇧🇷
+
+## Podcasts
+
+[TGI Kubernetes](https://www.youtube.com/playlist?list=PL7bmigfV0EqQzxcNpmcdTJ9eFRPBe-iZa)
+
+[The Podlets](https://thepodlets.io)
+
+[Kubecast](https://www.kubecast.com/)
+
+[Kubernetes Podcast (from Google)](https://kubernetespodcast.com/)
+
+[PodCTL - Enterprise Kubernetes](https://www.podctl.com/)
+
+## Community
+
+### Slacks
+
+[Kubernetes Slack](https://kubernetes.slack.com)
+
+[CNCF Slack](https://cloud-native.slack.com)
+
+[Kubernetes Canada Slack](https://k8scanadaslack.herokuapp.com/)
+
+### Newsletters
+
+[kubelist](https://kubelist.com/)
+[LWKD](http://lwkd.info/)
+
+### Jobs
+
+[Kube Careers](https://kube.careers/)
+
+### K8s Managed Services
+
+[AKS](https://docs.microsoft.com/en-us/azure/aks/)
+
+[EKS](https://aws.amazon.com/eks/)
+
+[GKE](https://cloud.google.com/kubernetes-engine/)
+
+### K8s Alternatives
+
+[Docker Swarm](https://docs.docker.com/get-started/swarm-deploy/)
+
+[Apache Mesos](https://mesos.apache.org/)
+
+[HashiCorp Nomad](https://www.nomadproject.io/)
+
+[Red Hat Openshift](https://www.openshift.com/)
+
+### Other Awesome Lists
+
+[kubepwn](https://github.com/alexivkin/kubepwn) ⭐ 59 | 🐛 0 | 🌐 Python | 📅 2020-11-14
+
+[awesome-kubernetes-security](https://github.com/ksoclabs/awesome-kubernetes-security) ⭐ 965 | 🐛 12 | 📅 2023-12-15
+
+[awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) ⭐ 16,049 | 🐛 77 | 🌐 Shell | 📅 2026-06-23
+
+[awesome-istio](https://github.com/mstrYoda/awesome-istio) ⭐ 147 | 🐛 0 | 📅 2026-04-24
+
+[awesome-falco](https://github.com/developer-guy/awesome-falco) ⭐ 202 | 🐛 1 | 📅 2021-07-28
+
+[awesome-cloud-native](https://github.com/rootsongjc/awesome-cloud-native) ⭐ 2,432 | 🐛 6 | 🌐 HTML | 📅 2026-08-10
+
+[awesome-opa](https://github.com/anderseknert/awesome-opa) ⭐ 898 | 🐛 5 | 📅 2026-06-28
+
+## Honk the Planet!
+
+<br>
+    <img src="https://github.com/magnologan/awesome-k8s-security/blob/master/honk.gif">
+<br>
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._
