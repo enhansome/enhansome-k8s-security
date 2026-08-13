@@ -68,7 +68,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Kubernetes.io](https://kubernetes.io/)
 
-[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 124,473 | 🐛 2,868 | 🌐 Go | 📅 2026-08-12
+[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 124,475 | 🐛 2,869 | 🌐 Go | 📅 2026-08-12
 
 [Kubernetes Security and Disclosure Information](https://kubernetes.io/docs/reference/issues-security/security/)
 
@@ -82,15 +82,15 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [CNCF STAG Mailing List](https://lists.cncf.io/g/cncf-tag-security)
 
-[Kubernetes SIG Security](https://github.com/kubernetes/community/tree/master/sig-security) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes SIG Security](https://github.com/kubernetes/community/tree/master/sig-security) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
 [Kubernetes SIG Security Meeting Notes](https://docs.google.com/document/d/1GgmmNYN88IZ2v2NBiO3gdU8Riomm0upge_XNVxEYXp0/edit)
 
-[Kubernetes SIG Auth (Authorization, Authentication, and Cluster Security Policy)](https://github.com/kubernetes/community/tree/master/sig-auth) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes SIG Auth (Authorization, Authentication, and Cluster Security Policy)](https://github.com/kubernetes/community/tree/master/sig-auth) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
-[Kubernetes Security Audit 2019 Results](https://github.com/kubernetes/community/tree/master/sig-security/security-audit-2019) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes Security Audit 2019 Results](https://github.com/kubernetes/community/tree/master/sig-security/security-audit-2019) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
-[Kubernetes Security Audit 2021 RFP](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2021/RFP.md) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes Security Audit 2021 RFP](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2021/RFP.md) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
 ## Talks and Videos
 
@@ -360,7 +360,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [KubeArmor - Cloud-native runtime protection](https://github.com/kubearmor/KubeArmor) ⭐ 2,577 | 🐛 420 | 🌐 Go | 📅 2026-08-12
 
-[Kubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT\&CK® frameworks](https://github.com/armosec/kubescape) ⭐ 11,600 | 🐛 120 | 🌐 Go | 📅 2026-08-12
+[Kubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT\&CK® frameworks](https://github.com/armosec/kubescape) ⭐ 11,601 | 🐛 125 | 🌐 Go | 📅 2026-08-12
 
 [segspec - Extract network dependencies from app configs and generate Kubernetes NetworkPolicies](https://github.com/dormstern/segspec) ⭐ 16 | 🐛 0 | 🌐 Go | 📅 2026-05-06
 
@@ -374,7 +374,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Defensia - WAF, intrusion detection, and automated blocking for Kubernetes nodes and Linux servers](https://github.com/defensia/agent) ⭐ 4 | 🐛 9 | 🌐 Go | 📅 2026-08-12
 
-[falco](https://github.com/falcosecurity/falco) ⭐ 9,261 | 🐛 70 | 🌐 C++ | 📅 2026-08-03
+[falco](https://github.com/falcosecurity/falco) ⭐ 9,262 | 🐛 70 | 🌐 C++ | 📅 2026-08-03
 
 [kubesec](https://github.com/controlplaneio/kubesec) ⭐ 1,472 | 🐛 28 | 🌐 Go | 📅 2026-07-10
 
@@ -410,11 +410,11 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Kubernetes Security - Best Practice Guide](https://github.com/freach/kubernetes-security-best-practice) ⭐ 2,706 | 🐛 12 | 📅 2019-09-11
 
-[External Secrets](https://github.com/external-secrets/external-secrets) ⭐ 6,787 | 🐛 251 | 🌐 Go | 📅 2026-08-12
+[External Secrets](https://github.com/external-secrets/external-secrets) ⭐ 6,787 | 🐛 250 | 🌐 Go | 📅 2026-08-13
 
-[kubescape](https://github.com/armosec/kubescape) ⭐ 11,600 | 🐛 120 | 🌐 Go | 📅 2026-08-12
+[kubescape](https://github.com/armosec/kubescape) ⭐ 11,601 | 🐛 125 | 🌐 Go | 📅 2026-08-12
 
-[KubeLinter](https://github.com/stackrox/kube-linter) ⭐ 3,494 | 🐛 89 | 🌐 Go | 📅 2026-08-12
+[KubeLinter](https://github.com/stackrox/kube-linter) ⭐ 3,495 | 🐛 89 | 🌐 Go | 📅 2026-08-12
 
 [Open Policy Agent](https://www.openpolicyagent.org)
 
@@ -440,21 +440,21 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [BunkerWeb - Open-source WAF/WAAP, reverse proxy, and Kubernetes Ingress/Gateway API controller for securing web applications and APIs](https://github.com/bunkerity/bunkerweb) ⭐ 10,803 | 🐛 178 | 🌐 Python | 📅 2026-08-12
 
-[KubeStellar Console - Open source AI-powered multi-cluster Kubernetes dashboard](https://github.com/kubestellar/console) ⭐ 127 | 🐛 19 | 🌐 TypeScript | 📅 2026-08-13
+[KubeStellar Console - Open source AI-powered multi-cluster Kubernetes dashboard](https://github.com/kubestellar/console) ⭐ 127 | 🐛 16 | 🌐 TypeScript | 📅 2026-08-13
 
 [PII-Shield - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs](https://github.com/pii-shield/pii-shield) ⭐ 163 | 🐛 22 | 🌐 Go | 📅 2026-08-12
 
 ## Papers
 
-[Kubernetes Security Assessment - Final Report - May 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes Security Assessment - Final Report - May 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
-[Kubernetes Security Whitepaper - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes Security Whitepaper - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Final%20Report.pdf) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
-[Kubernetes Threat Model - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Threat%20Model.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Kubernetes Threat Model - June 2019](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/Kubernetes%20Threat%20Model.pdf) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
 [Kubernetes Attack Tree](https://github.com/cncf/financial-user-group/tree/master/projects/k8s-threat-model) ⚠️ Archived
 
-[Attacking Kubernetes - A Guide for Administrators and Penetration Testers](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/AtredisPartners_Attacking_Kubernetes-v1.0.pdf) ⭐ 12,966 | 🐛 100 | 🌐 Jupyter Notebook | 📅 2026-08-12
+[Attacking Kubernetes - A Guide for Administrators and Penetration Testers](https://github.com/kubernetes/community/blob/master/sig-security/security-audit-2019/findings/AtredisPartners_Attacking_Kubernetes-v1.0.pdf) ⭐ 12,966 | 🐛 99 | 🌐 Jupyter Notebook | 📅 2026-08-13
 
 [CIS Kubernetes Benchmark](https://www.cisecurity.org/benchmark/kubernetes/)
 
