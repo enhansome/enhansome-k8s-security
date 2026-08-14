@@ -39,7 +39,7 @@
             "last_commit": "2026-02-15T12:13:57Z",
             "owner": "kodekloudhub",
             "repo": "certified-kubernetes-administrator-course",
-            "stars": 10730
+            "stars": 10735
           }
         },
         {
@@ -180,7 +180,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-13T06:19:52.256Z",
+    "last_updated": "2026-08-14T06:17:47.294Z",
     "original_repository": "magnologan/awesome-k8s-security",
     "original_repository_sha": "895cccca9f639a042b84133b48c59f4a363a2972",
     "enhanced_repository": "enhansome/enhansome-k8s-security",
