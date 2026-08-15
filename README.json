@@ -88,7 +88,15 @@
           "node_type": "item",
           "title": "CKSS-Certified-Kubernetes-Security-Specialist",
           "description": null,
-          "children": []
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-08-14T07:38:05Z",
+            "owner": "rust0258",
+            "repo": "CKSS-Certified-Kubernetes-Security-Specialist",
+            "stars": 2
+          }
         }
       ],
       "title": "Certifications"
@@ -180,7 +188,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T06:17:47.294Z",
+    "last_updated": "2026-08-15T05:28:59.520Z",
     "original_repository": "magnologan/awesome-k8s-security",
     "original_repository_sha": "895cccca9f639a042b84133b48c59f4a363a2972",
     "enhanced_repository": "enhansome/enhansome-k8s-security",
