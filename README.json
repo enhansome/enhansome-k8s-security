@@ -1,195 +1,98 @@
 {
   "items": [
     {
-      "description": "To understand about Kubernetes Security you first need to understand the basics of how Kubernetes works and all the components involved. Here's some links and materials to help you with that journey:\nKubernetes in 5 mins\nKubernetes Concepts Explained in 9 minutes!\nKubernetes 101\nKubernetes: Getting Started\nKubernetes The Hard Way - Kelsey Hightower\nKubernetes Challenge 🇧🇷\nKubernetes de K a S - Erlon Pinheiro 🇧🇷\nKubernetes Training\nIntroduction to Kubernetes\nKube Academy\nGame of Pods (KodeKloud)\nGist of Kubernetes Resources\nUncomplicating Kubernetes (Jeferson Noronha aka LinuxTips) 🇧🇷\nKubernetes Security Checklist and Requirements",
-      "items": [],
-      "title": "The Basics"
-    },
-    {
-      "description": "Kubernetes.io\nKubernetes GitHub\nKubernetes Security and Disclosure Information\nCloud Native Security\nPod Security Standards\nCNCF STAG - Security Technical Advisory Group\nCNCF STAG Meeting Notes\nCNCF STAG Mailing List\nKubernetes SIG Security\nKubernetes SIG Security Meeting Notes\nKubernetes SIG Auth (Authorization, Authentication, and Cluster Security Policy)\nKubernetes Security Audit 2019 Results\nKubernetes Security Audit 2021 RFP",
-      "items": [],
-      "title": "Official Pages"
-    },
-    {
-      "description": "Compromising Kubernetes Cluster by Exploiting RBAC Permissions - Eviatar Gerzi, CyberArk (RSA 2020)\nKubernetes Deconstructed: Understanding Kubernetes by Breaking It Down - Carson Anderson, DOMO\nKubernetes Deconstructed: Understanding Kubernetes by Breaking It Down - Carson Anderson, DOMO (Extended Version)\nAdvanced Persistence Threats: The Future of Kubernetes Attacks (RSAC 2020)\nKubernetes Security Best Practices - Ian Lewis, Google\nSecuring Kubernetes Secrets (Cloud Next '19)\nJay Beale - Attacking and Defending Kubernetes - DEF CON 27 Packet Hacking Village\nThe State of Kubernetes Security - Liz Rice\nDIY Pen-Testing for Your Kubernetes Cluster - Liz Rice, Aqua Security\nKubernetes Security 101: Best Practices to Secure your Cluster\nKubernetes Security 101: OWASP Natal Virtual Meeting 🇧🇷\nRory's McCune @raesene Kubernetes Security Lab | Rawkode Live workshop",
-      "items": [],
-      "title": "Talks and Videos"
-    },
-    {
-      "description": "Cloud native security for your clusters\nContainer Security: Examining Potential Threats to the Container Environment\nKubernetes securityContext: Linux capabilities in Kubernetes\n10 Kubernetes Security Context settings you should understand\nKubesploit: A New Offensive Tool for Testing Containerized Environments\nSecuring Kubernetes Clusters by Eliminating Risky Permissions\nUsing Kubelet Client to Attack the Kubernetes Cluster\nEight Ways to Create a Pod\nRisk8s Business: Risk Analysis of Kubernetes Clusters\nHow to Set Up and Manage Logs with Kubernetes\nThe Current State of Kubernetes Threat Modelling\nHildegard: New TeamTNT Cryptojacking Malware Targeting Kubernetes\nThe Basics of Keeping Kubernetes Clusters Secure\nThe Basics of Keeping Kubernetes Cluster Secure: Worker Nodes and Related Components\nHow to Secure Your Kubernetes Cluster\nKubernetes Security 101: Best Practices To Secure Your Cluster\nKubernetes Security\nIntroducing Kubernetes Goat\nThreat Matrix for Kubernetes\nOpen Sourcing the Kubernetes Security Audit\nAmazon EKS Best Practices Guide for Security\nProtecting Kubernetes: The Kubernetes Attack Matrix and How to Mitigate Its Threats\nSecuring the 4Cs of Cloud Native\nCVE-2018-18264 Privilege escalation through Kubernetes dashboard\nCertified Kubernetes Security Specialist (CKS) exam guide\nA Deep Dive Into Kubernetes Schema Validation\nA Beginner-Friendly Introduction to Kubernetes\nManaging Kubernetes without losing your cool\nKubernetes: Detailed security assessment guidelines and necessary checklist\nTeamTNT Targets Kubernetes, Nearly 50,000 IPs Compromised in Worm-like Attack\nProtecting Your Krew: A Security Analysis of kubectl Plug-ins\nThe Fault in Our Kubelets: Analyzing the Security of Publicly Exposed Kubernetes Clusters\nA Deep Dive Into Kubernetes Threat Modeling\nEnhancing Software Supply-Chain Security: Navigating SLSA Standards and the MITRE ATT&CK Framework\nUnderstanding the Kubernetes Security Triad: Image Scanning, Admission Controllers, and Runtime Security\nMitigating the Threat of Sidecar Container Injection\nAbusing Argo CD, Helm, and Artifact Hub: An Analysis of Supply Chain Attacks in Cloud-Native Applications",
-      "items": [],
-      "title": "Blogs and Articles"
-    },
-    {
-      "description": "Hacking Kubernetes by Andrew Martin, Michael Hausenblas\nLearn Kubernetes Security by Kaizhe Huang and Pranjal Jumde\nKubernetes Security by Liz Rice and Michael Hausenblas\nContainer Security by Liz Rice\nKubernetes: Up and Running, Second Edition by Brendan Burns, Joe Beda and Kelsey Hightower\nThe Kubernetes Book by Nigel Poulton and Pushkar Joglekar\nKubernetes Patterns: Reusable Elements for Designing Cloud-Native Applications by Bilgin Ibryam & Roland Huß\nSecuring Kubernetes Secrets by Alex Soto Bueno and Andrew Block\nKubernetes in Action, Second Edition by Marko Lukša\nGoogle Anthos by Antonio Gulli et al.\nKubernetes for Developers by William Denniss\nKubernetes on Windows by Jay Vyas and James Sturtevant\nCore Kubernetes by Chris Love\nKubernetes Security with M9sweeper",
-      "items": [],
-      "title": "Books"
-    },
-    {
-      "description": "",
+      "description": "Most of the resources are in English, the ones that aren't will be flagged as such. All the content in this list is public and free, please use them for educational purposes only!\nNot all the tools have been tested or reviewed, use them at your own risk! Also, I don't consider myself a K8s Security expert, I'm just learning and helping others learn along with me. Thanks!\nThese are the main topics of this Awesome Kubernetes (K8s) Security List. Everything related to the Security of Kubernetes (and its components such as CoreDNS, etcd) either for learning, breaking or defending it, will be added down below. If you have any other good links or recommendations, feel free to submit a PR!",
       "items": [
         {
-          "node_type": "item",
-          "title": "Certified Kubernetes Administrator (CKA) Course",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Certified Kubernetes Administrator (CKA) Course",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 272573152,
+                "language": "Shell",
+                "last_commit": "2026-02-15T12:13:57Z",
+                "owner": "kodekloudhub",
+                "repo": "certified-kubernetes-administrator-course",
+                "stars": 10753
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Certified Kubernetes Security Specialist (CKS)",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 288698809,
+                "language": "AGS Script",
+                "last_commit": "2026-03-14T00:46:44Z",
+                "owner": "walidshaari",
+                "repo": "Certified-Kubernetes-Security-Specialist",
+                "stars": 2122
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Certified Kubernetes Security Specialist Study Guide",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 312104346,
+                "language": "HCL",
+                "last_commit": "2021-01-04T22:33:10Z",
+                "owner": "stackrox",
+                "repo": "Kubernetes_Security_Specialist_Study_Guide",
+                "stars": 430
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "References for CKS Exam Objectives",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 296113926,
+                "language": null,
+                "last_commit": "2023-11-14T09:53:58Z",
+                "owner": "abdennour",
+                "repo": "certified-kubernetes-security-specialist",
+                "stars": 149
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CKSS-Certified-Kubernetes-Security-Specialist",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 288304499,
+                "language": "HTML",
+                "last_commit": "2026-08-14T07:38:05Z",
+                "owner": "rust0258",
+                "repo": "CKSS-Certified-Kubernetes-Security-Specialist",
+                "stars": 2
+              }
+            }
+          ],
           "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Shell",
-            "last_commit": "2026-02-15T12:13:57Z",
-            "owner": "kodekloudhub",
-            "repo": "certified-kubernetes-administrator-course",
-            "stars": 10749
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Certified Kubernetes Security Specialist (CKS)",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "AGS Script",
-            "last_commit": "2026-03-14T00:46:44Z",
-            "owner": "walidshaari",
-            "repo": "Certified-Kubernetes-Security-Specialist",
-            "stars": 2122
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Certified Kubernetes Security Specialist Study Guide",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HCL",
-            "last_commit": "2021-01-04T22:33:10Z",
-            "owner": "stackrox",
-            "repo": "Kubernetes_Security_Specialist_Study_Guide",
-            "stars": 430
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "References for CKS Exam Objectives",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2023-11-14T09:53:58Z",
-            "owner": "abdennour",
-            "repo": "certified-kubernetes-security-specialist",
-            "stars": 149
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CKSS-Certified-Kubernetes-Security-Specialist",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-08-14T07:38:05Z",
-            "owner": "rust0258",
-            "repo": "CKSS-Certified-Kubernetes-Security-Specialist",
-            "stars": 2
-          }
+          "node_type": "group",
+          "title": "Certifications"
         }
       ],
-      "title": "Certifications"
-    },
-    {
-      "description": "Exploring container security: Vulnerability management in open-source Kubernetes\nCVE-2018-18264 - Kubernetes Dashboard bypass authentication\nCVE-2019-11247 - kube-apiserver mistakenly allows access to a cluster-scoped custom resource\nCVE-2019-11249 - kubectl cp command tar exploit\nCVE-2020-8558 PoC - kube-proxy unexpectedly makes localhost-bound host services available to others on the network\nCVE-2020-8559 PoC - kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests\nCVE-2020-8559 PoC 2 - kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests\nCVE-2020-10749 PoC - malicious containers in Kubernetes clusters to perform man-in-the-middle (MitM) attacks\nCVE-2021-25735 - kube-apiserver allow node updates to bypass a Validating Admission Webhook\nCVE-2021-25737 - user may be able to redirect pod traffic to private networks on a node\nCVE-2021-25740 - enable users to send network traffic to locations they would otherwise not have access to via a confused deputy attack\nCVE-2021-25741 - user may be able to create a container with subpath volume mounts to access files & directories outside of the volume\nCVE-2021-30465 - runc container filesystem breakout via directory traversal",
-      "items": [],
-      "title": "CVEs"
-    },
-    {
-      "description": "Communication is Key - Understanding Kubernetes Networking (KubeCon EU 2020)\nSeccomp Profiles and you: A practical guide (KubeCon EU 2020)\nAdvanced Persistence Threats: The Future of Kubernetes Attacks (KubeCon EU 2020)\nHelp! My Cluster Is On The Internet!",
-      "items": [],
-      "title": "Slides"
-    },
-    {
-      "description": "Secure Kubernetes\nCloud Native Security Tutorial\nKubernetes Security (Advanced Concepts)\nKubernetes Goat Guide\nCertified Cloud Native Security Expert - CCNSE by Practical DevSecOps\nCertified Container Security Expert - CCSE by Practical DevSecOps\nKatacoda Kubernetes Goat Videos\nAttacking and Auditing Docker Containers and Kubernetes Clusters\nA Cloud Guru Kubernetes Security\nSANS Cloud-Native Security Defending Containers and Kubernetes\nTutorial: Getting Started With Cloud-Native Security - KubeCon EU 2020 - Liz Rice & Michael Hausenblas\nControl Plane Security Training\nKubernetes CKS Exam Simulator\nKubernetes Security Workshop\nLinux Academy - Kubernetes Security\nMumshad's KodeCloud Certified kubernetes security specialist cks",
-      "items": [],
-      "title": "Trainings"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Repositories / Tools"
-    },
-    {
-      "description": "kubectl\nkrew\nBust-a-Kube\nkube-goat\nKubernetes Goat\nKubernetes Networking Labs for KubeCon EU 2020 Talk\nCNCF Security Audits\nKube Security Lab: Learn from Kuberenetes attacks using Ansible and KinD",
-      "items": [],
-      "title": "Learning"
-    },
-    {
-      "description": "kdigger\nkube-hunter\nkubeletctl\nkubesploit\nPeirates",
-      "items": [],
-      "title": "Attacking"
-    },
-    {
-      "description": "KubeArmor - Cloud-native runtime protection\nKubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT&CK® frameworks\nsegspec - Extract network dependencies from app configs and generate Kubernetes NetworkPolicies\nKubiScan\nKubernetes Audit by Trail of Bits\nkubeaudit\nDeepfence ThreatMapper\nDefensia - WAF, intrusion detection, and automated blocking for Kubernetes nodes and Linux servers\nfalco\nkubesec\nkube-bench\ntrivy\nMKIT\nkubetap\nkube-forensics\nk8s-security-dashboard\nCIS Kubernetes Benchmark - InSpec Profile\nKube PodSecurityPolicy Advisor\nInspektor Gadget\nStarboard\nAdvocacy Site for Kubernetes RBAC\nHelm-Snyk\nKrane\nrakkess\nkubectl-who-can\nKubernetes Security - Best Practice Guide\nExternal Secrets\nkubescape\nKubeLinter\nOpen Policy Agent\nGatekeeper\nKyverno\nKubewarden\nKICS - Keeping Infrastructure as Code Secure\ncnspec - cloud-native security and policy project\nM9sweeper - Kubernetes Security Platform\nReleaseRun K8s Deprecation Checker\nReleaseRun K8s YAML Security Linter\nAudit Radar\nvens - Prioritize vulnerabilities by real risk, not just CVSS. Takes a Trivy or Grype scan and scores each CVE based on your system's actual context.\nBunkerWeb - Open-source WAF/WAAP, reverse proxy, and Kubernetes Ingress/Gateway API controller for securing web applications and APIs\nKubeStellar Console - Open source AI-powered multi-cluster Kubernetes dashboard\nPII-Shield - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs",
-      "items": [],
-      "title": "Defending"
-    },
-    {
-      "description": "Kubernetes Security Assessment - Final Report - May 2019\nKubernetes Security Whitepaper - June 2019\nKubernetes Threat Model - June 2019\nKubernetes Attack Tree\nAttacking Kubernetes - A Guide for Administrators and Penetration Testers\nCIS Kubernetes Benchmark\nKubernetes é seguro por default ou à prova de má configuração? 🇧🇷",
-      "items": [],
-      "title": "Papers"
-    },
-    {
-      "description": "TGI Kubernetes\nThe Podlets\nKubecast\nKubernetes Podcast (from Google)\nPodCTL - Enterprise Kubernetes",
-      "items": [],
-      "title": "Podcasts"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Community"
-    },
-    {
-      "description": "Kubernetes Slack\nCNCF Slack\nKubernetes Canada Slack",
-      "items": [],
-      "title": "Slacks"
-    },
-    {
-      "description": "kubelist LWKD",
-      "items": [],
-      "title": "Newsletters"
-    },
-    {
-      "description": "Kube Careers",
-      "items": [],
-      "title": "Jobs"
-    },
-    {
-      "description": "AKS\nEKS\nGKE",
-      "items": [],
-      "title": "K8s Managed Services"
-    },
-    {
-      "description": "Docker Swarm\nApache Mesos\nHashiCorp Nomad\nRed Hat Openshift",
-      "items": [],
-      "title": "K8s Alternatives"
-    },
-    {
-      "description": "kubepwn\nawesome-kubernetes-security\nawesome-kubernetes\nawesome-istio\nawesome-falco\nawesome-cloud-native\nawesome-opa",
-      "items": [],
-      "title": "Other Awesome Lists"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Honk the Planet!"
+      "title": "Disclaimer"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T05:34:31.871Z",
+    "last_updated": "2026-08-19T12:38:56.181Z",
     "original_repository": "magnologan/awesome-k8s-security",
+    "original_repository_id": 277564848,
     "original_repository_sha": "895cccca9f639a042b84133b48c59f4a363a2972",
     "enhanced_repository": "enhansome/enhansome-k8s-security",
     "enhanced_repository_description": null,
