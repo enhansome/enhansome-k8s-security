@@ -7,6 +7,170 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Kubernetes The Hard Way - Kelsey Hightower",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 62812261,
+                "language": null,
+                "last_commit": "2025-04-10T06:11:47Z",
+                "owner": "kelseyhightower",
+                "repo": "kubernetes-the-hard-way",
+                "stars": 49544
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes de K a S - Erlon Pinheiro",
+              "description": "🇧🇷",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 232893409,
+                "language": "HTML",
+                "last_commit": "2021-02-24T23:34:31Z",
+                "owner": "erlonpinheiro",
+                "repo": "kubernetes_de_k_a_s",
+                "stars": 7
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Training",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 150766089,
+                "language": "JavaScript",
+                "last_commit": "2021-12-01T05:06:55Z",
+                "owner": "ashishrpandey",
+                "repo": "kubernetes-training",
+                "stars": 29
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Checklist and Requirements",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 416227460,
+                "language": null,
+                "last_commit": "2021-12-13T07:39:53Z",
+                "owner": "Vinum-Security",
+                "repo": "kubernetes-security-checklist",
+                "stars": 486
+              }
+            }
+          ],
+          "description": "To understand about Kubernetes Security you first need to understand the basics of how Kubernetes works and all the components involved. Here's some links and materials to help you with that journey:\nKubernetes in 5 mins\nKubernetes Concepts Explained in 9 minutes!\nKubernetes 101\nKubernetes: Getting Started\nIntroduction to Kubernetes\nKube Academy\nGame of Pods (KodeKloud)\nGist of Kubernetes Resources\nUncomplicating Kubernetes (Jeferson Noronha aka LinuxTips) 🇧🇷",
+          "node_type": "group",
+          "title": "The Basics"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Kubernetes GitHub",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 20580498,
+                "language": "Go",
+                "last_commit": "2026-08-21T00:56:52Z",
+                "owner": "kubernetes",
+                "repo": "kubernetes",
+                "stars": 124946
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CNCF STAG - Security Technical Advisory Group",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 125122827,
+                "language": "HTML",
+                "last_commit": "2025-12-08T07:51:51Z",
+                "owner": "cncf",
+                "repo": "tag-security",
+                "stars": 2264
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes SIG Security",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes SIG Auth (Authorization, Authentication, and Cluster Security Policy)",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Audit 2019 Results",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Audit 2021 RFP",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            }
+          ],
+          "description": "Kubernetes.io\nKubernetes Security and Disclosure Information\nCloud Native Security\nPod Security Standards\nCNCF STAG Meeting Notes\nCNCF STAG Mailing List\nKubernetes SIG Security Meeting Notes",
+          "node_type": "group",
+          "title": "Official Pages"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Certified Kubernetes Administrator (CKA) Course",
               "description": null,
               "children": [],
@@ -17,7 +181,7 @@
                 "last_commit": "2026-02-15T12:13:57Z",
                 "owner": "kodekloudhub",
                 "repo": "certified-kubernetes-administrator-course",
-                "stars": 10769
+                "stars": 10772
               }
             },
             {
@@ -84,13 +248,1066 @@
           "description": null,
           "node_type": "group",
           "title": "Certifications"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CVE-2020-8558 PoC",
+              "description": "kube-proxy unexpectedly makes localhost-bound host services available to others on the network",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 278287440,
+                "language": "Python",
+                "last_commit": "2020-07-22T12:34:47Z",
+                "owner": "tabbysable",
+                "repo": "POC-2020-8558",
+                "stars": 43
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CVE-2020-8559 PoC",
+              "description": "kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 281581111,
+                "language": "Shell",
+                "last_commit": "2020-07-22T05:30:14Z",
+                "owner": "tabbysable",
+                "repo": "POC-2020-8559",
+                "stars": 20
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CVE-2020-8559 PoC 2",
+              "description": "kube-apiserver vulnerable to an unvalidated redirect on proxied upgrade requests",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 281622020,
+                "language": null,
+                "last_commit": "2020-07-23T12:55:28Z",
+                "owner": "tdwyer",
+                "repo": "CVE-2020-8559",
+                "stars": 54
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CVE-2020-10749 PoC",
+              "description": "malicious containers in Kubernetes clusters to perform man-in-the-middle (MitM) attacks",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 271585011,
+                "language": "Python",
+                "last_commit": "2020-06-11T16:21:01Z",
+                "owner": "knqyf263",
+                "repo": "CVE-2020-10749",
+                "stars": 25
+              }
+            }
+          ],
+          "description": "Exploring container security: Vulnerability management in open-source Kubernetes\nCVE-2018-18264 - Kubernetes Dashboard bypass authentication\nCVE-2019-11247 - kube-apiserver mistakenly allows access to a cluster-scoped custom resource\nCVE-2019-11249 - kubectl cp command tar exploit\nCVE-2021-25735 - kube-apiserver allow node updates to bypass a Validating Admission Webhook\nCVE-2021-25737 - user may be able to redirect pod traffic to private networks on a node\nCVE-2021-25740 - enable users to send network traffic to locations they would otherwise not have access to via a confused deputy attack\nCVE-2021-25741 - user may be able to create a container with subpath volume mounts to access files & directories outside of the volume\nCVE-2021-30465 - runc container filesystem breakout via directory traversal",
+          "node_type": "group",
+          "title": "CVEs"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Attacking and Auditing Docker Containers and Kubernetes Clusters",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 353445081,
+                "language": "Shell",
+                "last_commit": "2021-03-31T18:04:19Z",
+                "owner": "Kloudle",
+                "repo": "attacking-and-auditing-docker-containers-and-kubernetes-clusters-training",
+                "stars": 13
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Workshop",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 157122037,
+                "language": "Shell",
+                "last_commit": "2019-05-02T21:26:32Z",
+                "owner": "scotty-c",
+                "repo": "kubernetes-security-workshop",
+                "stars": 64
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Linux Academy - Kubernetes Security",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 166431076,
+                "language": "Shell",
+                "last_commit": "2020-03-19T19:19:35Z",
+                "owner": "linuxacademy",
+                "repo": "content-kubernetes-security",
+                "stars": 50
+              }
+            }
+          ],
+          "description": "Secure Kubernetes\nCloud Native Security Tutorial\nKubernetes Security (Advanced Concepts)\nKubernetes Goat Guide\nCertified Cloud Native Security Expert - CCNSE by Practical DevSecOps\nCertified Container Security Expert - CCSE by Practical DevSecOps\nKatacoda Kubernetes Goat Videos\nA Cloud Guru Kubernetes Security\nSANS Cloud-Native Security Defending Containers and Kubernetes\nTutorial: Getting Started With Cloud-Native Security - KubeCon EU 2020 - Liz Rice & Michael Hausenblas\nControl Plane Security Training\nKubernetes CKS Exam Simulator\nMumshad's KodeCloud Certified kubernetes security specialist cks",
+          "node_type": "group",
+          "title": "Trainings"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "kube-goat",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 175300270,
+                    "language": "Shell",
+                    "last_commit": "2023-12-15T17:51:23Z",
+                    "owner": "ksoclabs",
+                    "repo": "kube-goat",
+                    "stars": 133
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kubernetes Goat",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 269419110,
+                    "language": "HTML",
+                    "last_commit": "2026-04-16T22:11:11Z",
+                    "owner": "madhuakula",
+                    "repo": "kubernetes-goat",
+                    "stars": 5753
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kubernetes Networking Labs for KubeCon EU 2020 Talk",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 284047388,
+                    "language": "Shell",
+                    "last_commit": "2020-09-08T16:02:09Z",
+                    "owner": "korvus81",
+                    "repo": "k8s-net-labs",
+                    "stars": 96
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "CNCF Security Audits",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 329084973,
+                    "language": null,
+                    "last_commit": "2021-01-13T10:43:12Z",
+                    "owner": "magnologan",
+                    "repo": "cncf-security-audits",
+                    "stars": 39
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kube Security Lab: Learn from Kuberenetes attacks using Ansible and KinD",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 208473798,
+                    "language": "Python",
+                    "last_commit": "2026-03-19T15:03:10Z",
+                    "owner": "raesene",
+                    "repo": "kube_security_lab",
+                    "stars": 284
+                  }
+                }
+              ],
+              "description": "kubectl\nkrew\nBust-a-Kube",
+              "node_type": "group",
+              "title": "Learning"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "kdigger",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 403605621,
+                    "language": "Go",
+                    "last_commit": "2025-11-07T11:44:47Z",
+                    "owner": "quarkslab",
+                    "repo": "kdigger",
+                    "stars": 485
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kube-hunter",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 141447532,
+                    "language": "Python",
+                    "last_commit": "2024-03-19T12:30:55Z",
+                    "owner": "aquasecurity",
+                    "repo": "kube-hunter",
+                    "stars": 5077
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubeletctl",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 253574487,
+                    "language": "Go",
+                    "last_commit": "2025-08-06T07:17:00Z",
+                    "owner": "cyberark",
+                    "repo": "kubeletctl",
+                    "stars": 902
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubesploit",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 337456688,
+                    "language": "Go",
+                    "last_commit": "2025-02-03T12:03:19Z",
+                    "owner": "cyberark",
+                    "repo": "kubesploit",
+                    "stars": 1225
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Peirates",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 173833386,
+                    "language": "Go",
+                    "last_commit": "2026-08-21T18:21:28Z",
+                    "owner": "inguardians",
+                    "repo": "peirates",
+                    "stars": 1476
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Attacking"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "KubeArmor - Cloud-native runtime protection",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 316098156,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T11:26:05Z",
+                    "owner": "kubearmor",
+                    "repo": "KubeArmor",
+                    "stars": 2582
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT&CK® frameworks",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 395283401,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T11:56:49Z",
+                    "owner": "kubescape",
+                    "repo": "kubescape",
+                    "stars": 11685
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "segspec - Extract network dependencies from app configs and generate Kubernetes NetworkPolicies",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1161232058,
+                    "language": "Go",
+                    "last_commit": "2026-05-06T07:36:28Z",
+                    "owner": "dormstern",
+                    "repo": "segspec",
+                    "stars": 16
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "KubiScan",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 155219807,
+                    "language": "Python",
+                    "last_commit": "2025-05-25T11:33:02Z",
+                    "owner": "cyberark",
+                    "repo": "KubiScan",
+                    "stars": 1430
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kubernetes Audit by Trail of Bits",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 167560815,
+                    "language": "Go",
+                    "last_commit": "2019-08-07T20:33:46Z",
+                    "owner": "trailofbits",
+                    "repo": "audit-kubernetes",
+                    "stars": 232
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubeaudit",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 103579225,
+                    "language": "Go",
+                    "last_commit": "2024-08-21T18:48:27Z",
+                    "owner": "Shopify",
+                    "repo": "kubeaudit",
+                    "stars": 1936
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Deepfence ThreatMapper",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 238662977,
+                    "language": "TypeScript",
+                    "last_commit": "2026-06-01T08:38:26Z",
+                    "owner": "deepfence",
+                    "repo": "ThreatMapper",
+                    "stars": 5318
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Defensia - WAF, intrusion detection, and automated blocking for Kubernetes nodes and Linux servers",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1177991212,
+                    "language": "Go",
+                    "last_commit": "2026-08-21T09:20:44Z",
+                    "owner": "defensia",
+                    "repo": "agent",
+                    "stars": 4
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "falco",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 49986046,
+                    "language": "C++",
+                    "last_commit": "2026-08-03T07:39:35Z",
+                    "owner": "falcosecurity",
+                    "repo": "falco",
+                    "stars": 9298
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubesec",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 106386673,
+                    "language": "Go",
+                    "last_commit": "2026-07-10T17:08:21Z",
+                    "owner": "controlplaneio",
+                    "repo": "kubesec",
+                    "stars": 1477
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kube-bench",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 94779471,
+                    "language": "Go",
+                    "last_commit": "2026-08-18T08:46:23Z",
+                    "owner": "aquasecurity",
+                    "repo": "kube-bench",
+                    "stars": 8150
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "trivy",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 180687624,
+                    "language": "Go",
+                    "last_commit": "2026-08-21T13:35:07Z",
+                    "owner": "aquasecurity",
+                    "repo": "trivy",
+                    "stars": 37587
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "MKIT",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 250376894,
+                    "language": "Dockerfile",
+                    "last_commit": "2021-09-16T13:46:12Z",
+                    "owner": "darkbitio",
+                    "repo": "mkit",
+                    "stars": 396
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubetap",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 265744734,
+                    "language": "Go",
+                    "last_commit": "2023-08-30T14:16:22Z",
+                    "owner": "soluble-ai",
+                    "repo": "kubetap",
+                    "stars": 645
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kube-forensics",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 202445732,
+                    "language": "Go",
+                    "last_commit": "2026-07-16T02:43:27Z",
+                    "owner": "keikoproj",
+                    "repo": "kube-forensics",
+                    "stars": 234
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "k8s-security-dashboard",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 168209930,
+                    "language": "Python",
+                    "last_commit": "2023-10-18T01:49:10Z",
+                    "owner": "k8scop",
+                    "repo": "k8s-security-dashboard",
+                    "stars": 132
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "CIS Kubernetes Benchmark - InSpec Profile",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 100379959,
+                    "language": "Ruby",
+                    "last_commit": "2024-08-09T05:47:43Z",
+                    "owner": "dev-sec",
+                    "repo": "cis-kubernetes-benchmark",
+                    "stars": 312
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kube PodSecurityPolicy Advisor",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 168977353,
+                    "language": "Go",
+                    "last_commit": "2023-10-11T21:18:59Z",
+                    "owner": "sysdiglabs",
+                    "repo": "kube-psp-advisor",
+                    "stars": 327
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Inspektor Gadget",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 181724380,
+                    "language": "C",
+                    "last_commit": "2026-08-24T13:43:01Z",
+                    "owner": "inspektor-gadget",
+                    "repo": "inspektor-gadget",
+                    "stars": 2913
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Starboard",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 247991727,
+                    "language": "Go",
+                    "last_commit": "2026-06-10T12:05:58Z",
+                    "owner": "aquasecurity",
+                    "repo": "starboard",
+                    "stars": 1379
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Advocacy Site for Kubernetes RBAC",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 188389802,
+                    "language": null,
+                    "last_commit": "2026-03-03T15:55:37Z",
+                    "owner": "felixnotka",
+                    "repo": "rbac.dev",
+                    "stars": 257
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Helm-Snyk",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 214002996,
+                    "language": "TypeScript",
+                    "last_commit": "2025-11-14T17:08:34Z",
+                    "owner": "snyk-labs",
+                    "repo": "helm-snyk",
+                    "stars": 43
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Krane",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 163434843,
+                    "language": "Ruby",
+                    "last_commit": "2026-08-22T18:53:30Z",
+                    "owner": "appvia",
+                    "repo": "krane",
+                    "stars": 744
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "rakkess",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 172054938,
+                    "language": "Go",
+                    "last_commit": "2023-04-05T05:00:24Z",
+                    "owner": "corneliusweig",
+                    "repo": "rakkess",
+                    "stars": 1400
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubectl-who-can",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 175985633,
+                    "language": "Go",
+                    "last_commit": "2024-07-17T11:59:27Z",
+                    "owner": "aquasecurity",
+                    "repo": "kubectl-who-can",
+                    "stars": 917
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Kubernetes Security - Best Practice Guide",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 128202426,
+                    "language": null,
+                    "last_commit": "2019-09-11T23:13:51Z",
+                    "owner": "freach",
+                    "repo": "kubernetes-security-best-practice",
+                    "stars": 2706
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "External Secrets",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 313628863,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T08:19:31Z",
+                    "owner": "external-secrets",
+                    "repo": "external-secrets",
+                    "stars": 6806
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "kubescape",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 395283401,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T11:56:49Z",
+                    "owner": "kubescape",
+                    "repo": "kubescape",
+                    "stars": 11685
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "KubeLinter",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 287336275,
+                    "language": "Go",
+                    "last_commit": "2026-08-19T16:16:47Z",
+                    "owner": "stackrox",
+                    "repo": "kube-linter",
+                    "stars": 3501
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Gatekeeper",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 154894457,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T10:51:26Z",
+                    "owner": "open-policy-agent",
+                    "repo": "gatekeeper",
+                    "stars": 4267
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "KICS - Keeping Infrastructure as Code Secure",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 278200746,
+                    "language": "Open Policy Agent",
+                    "last_commit": "2026-08-24T10:03:09Z",
+                    "owner": "Checkmarx",
+                    "repo": "kics",
+                    "stars": 2693
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "M9sweeper - Kubernetes Security Platform",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 558915653,
+                    "language": "TypeScript",
+                    "last_commit": "2024-07-12T11:23:59Z",
+                    "owner": "m9sweeper",
+                    "repo": "m9sweeper",
+                    "stars": 266
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "Audit Radar",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1176178216,
+                    "language": "Go",
+                    "last_commit": "2026-03-29T16:06:48Z",
+                    "owner": "vsenatorov",
+                    "repo": "auditvision",
+                    "stars": 18
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "vens - Prioritize vulnerabilities by real risk, not just CVSS. Takes a Trivy or Grype scan and scores each CVE based on your system's actual context.",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1090379351,
+                    "language": "Go",
+                    "last_commit": "2026-08-21T21:38:14Z",
+                    "owner": "venslabs",
+                    "repo": "vens",
+                    "stars": 8
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "BunkerWeb - Open-source WAF/WAAP, reverse proxy, and Kubernetes Ingress/Gateway API controller for securing web applications and APIs",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 203456148,
+                    "language": "Python",
+                    "last_commit": "2026-08-24T13:36:03Z",
+                    "owner": "bunkerity",
+                    "repo": "bunkerweb",
+                    "stars": 10852
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "KubeStellar Console - Open source AI-powered multi-cluster Kubernetes dashboard",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1135473716,
+                    "language": "TypeScript",
+                    "last_commit": "2026-08-24T10:52:39Z",
+                    "owner": "kubestellar",
+                    "repo": "console",
+                    "stars": 127
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "PII-Shield - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1146314565,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T07:18:52Z",
+                    "owner": "pii-shield",
+                    "repo": "pii-shield",
+                    "stars": 163
+                  }
+                }
+              ],
+              "description": "Open Policy Agent\nKyverno\nKubewarden\ncnspec - cloud-native security and policy project\nReleaseRun K8s Deprecation Checker\nReleaseRun K8s YAML Security Linter",
+              "node_type": "group",
+              "title": "Defending"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Repositories / Tools"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Assessment - Final Report - May 2019",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Security Whitepaper - June 2019",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Threat Model - June 2019",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Kubernetes Attack Tree",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 184290900,
+                "language": null,
+                "last_commit": "2022-07-19T05:18:02Z",
+                "owner": "cncf",
+                "repo": "financial-user-group",
+                "stars": 313
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Attacking Kubernetes - A Guide for Administrators and Penetration Testers",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 57939112,
+                "language": "Jupyter Notebook",
+                "last_commit": "2026-08-21T03:43:14Z",
+                "owner": "kubernetes",
+                "repo": "community",
+                "stars": 12986
+              }
+            }
+          ],
+          "description": "CIS Kubernetes Benchmark\nKubernetes é seguro por default ou à prova de má configuração? 🇧🇷",
+          "node_type": "group",
+          "title": "Papers"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "kubepwn",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 217465037,
+                    "language": "Python",
+                    "last_commit": "2020-11-14T09:37:08Z",
+                    "owner": "alexivkin",
+                    "repo": "kubepwn",
+                    "stars": 59
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-kubernetes-security",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 187921415,
+                    "language": null,
+                    "last_commit": "2023-12-15T05:19:31Z",
+                    "owner": "ksoclabs",
+                    "repo": "awesome-kubernetes-security",
+                    "stars": 965
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-kubernetes",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 44315167,
+                    "language": "Shell",
+                    "last_commit": "2026-06-23T13:33:19Z",
+                    "owner": "ramitsurana",
+                    "repo": "awesome-kubernetes",
+                    "stars": 16055
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-istio",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 338811357,
+                    "language": null,
+                    "last_commit": "2026-04-24T18:39:56Z",
+                    "owner": "mstrYoda",
+                    "repo": "awesome-istio",
+                    "stars": 147
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-falco",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 337955630,
+                    "language": null,
+                    "last_commit": "2021-07-28T08:11:27Z",
+                    "owner": "developer-guy",
+                    "repo": "awesome-falco",
+                    "stars": 201
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-cloud-native",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 97318812,
+                    "language": "HTML",
+                    "last_commit": "2026-08-24T02:24:19Z",
+                    "owner": "rootsongjc",
+                    "repo": "awesome-cloud-native",
+                    "stars": 2434
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "awesome-opa",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 292940644,
+                    "language": null,
+                    "last_commit": "2026-08-17T11:54:34Z",
+                    "owner": "open-policy-agent",
+                    "repo": "awesome-opa",
+                    "stars": 900
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Other Awesome Lists"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Community"
         }
       ],
       "title": "Disclaimer"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T05:41:25.427Z",
+    "last_updated": "2026-08-24T14:07:27.905Z",
     "original_repository": "magnologan/awesome-k8s-security",
     "original_repository_id": 277564848,
     "original_repository_sha": "895cccca9f639a042b84133b48c59f4a363a2972",
