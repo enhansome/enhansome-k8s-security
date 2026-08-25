@@ -68,7 +68,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Kubernetes.io](https://kubernetes.io/)
 
-[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 125,164 | 🐛 3,036 | 🌐 Go | 📅 2026-08-21
+[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 125,165 | 🐛 3,036 | 🌐 Go | 📅 2026-08-21
 
 [Kubernetes Security and Disclosure Information](https://kubernetes.io/docs/reference/issues-security/security/)
 

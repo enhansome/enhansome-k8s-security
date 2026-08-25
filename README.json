@@ -84,7 +84,7 @@
                 "last_commit": "2026-08-21T00:56:52Z",
                 "owner": "kubernetes",
                 "repo": "kubernetes",
-                "stars": 125164
+                "stars": 125165
               }
             },
             {
@@ -1070,7 +1070,7 @@
                     "archived": false,
                     "id": 1135473716,
                     "language": "TypeScript",
-                    "last_commit": "2026-08-25T05:20:07Z",
+                    "last_commit": "2026-08-25T05:53:34Z",
                     "owner": "kubestellar",
                     "repo": "console",
                     "stars": 127
@@ -1307,7 +1307,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T05:35:21.177Z",
+    "last_updated": "2026-08-25T05:59:51.550Z",
     "original_repository": "magnologan/awesome-k8s-security",
     "original_repository_id": 277564848,
     "original_repository_sha": "895cccca9f639a042b84133b48c59f4a363a2972",
