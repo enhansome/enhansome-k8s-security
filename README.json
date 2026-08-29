@@ -21,7 +21,7 @@
                 "open_issues": 54,
                 "owner": "kelseyhightower",
                 "repo": "kubernetes-the-hard-way",
-                "stars": 49572,
+                "stars": 49574,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:13:02.915Z"
@@ -118,10 +118,10 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-08-28T22:04:04Z",
-                "open_issues": 2980,
+                "open_issues": 2986,
                 "owner": "kubernetes",
                 "repo": "kubernetes",
-                "stars": 125329,
+                "stars": 125332,
                 "topics": [
                   "cncf",
                   "containers",
@@ -176,7 +176,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -199,7 +199,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -222,7 +222,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -245,7 +245,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -859,7 +859,7 @@
                     "open_issues": 24,
                     "owner": "inguardians",
                     "repo": "peirates",
-                    "stars": 1478,
+                    "stars": 1479,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:13:02.915Z"
@@ -918,10 +918,10 @@
                     "language": "Go",
                     "license": "Apache-2.0",
                     "last_commit": "2026-08-28T15:56:49Z",
-                    "open_issues": 65,
+                    "open_issues": 67,
                     "owner": "kubescape",
                     "repo": "kubescape",
-                    "stars": 11702,
+                    "stars": 11703,
                     "topics": [
                       "best-practice",
                       "devops",
@@ -1139,10 +1139,10 @@
                     "language": "C++",
                     "license": "Apache-2.0",
                     "last_commit": "2026-08-03T07:39:35Z",
-                    "open_issues": 64,
+                    "open_issues": 65,
                     "owner": "falcosecurity",
                     "repo": "falco",
-                    "stars": 9312,
+                    "stars": 9313,
                     "topics": [
                       "cloud-native",
                       "cncf",
@@ -1231,7 +1231,7 @@
                     "open_issues": 258,
                     "owner": "aquasecurity",
                     "repo": "trivy",
-                    "stars": 37679,
+                    "stars": 37686,
                     "topics": [
                       "containers",
                       "devsecops",
@@ -1676,10 +1676,10 @@
                     "language": "Go",
                     "license": "Apache-2.0",
                     "last_commit": "2026-08-28T15:56:49Z",
-                    "open_issues": 65,
+                    "open_issues": 67,
                     "owner": "kubescape",
                     "repo": "kubescape",
-                    "stars": 11702,
+                    "stars": 11703,
                     "topics": [
                       "best-practice",
                       "devops",
@@ -1938,11 +1938,11 @@
                     "id": 1135473716,
                     "language": "TypeScript",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-08-29T04:23:10Z",
-                    "open_issues": 12,
+                    "last_commit": "2026-08-29T11:25:48Z",
+                    "open_issues": 11,
                     "owner": "kubestellar",
                     "repo": "console",
-                    "stars": 129,
+                    "stars": 130,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:13:02.915Z"
@@ -2010,7 +2010,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2033,7 +2033,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2056,7 +2056,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2100,7 +2100,7 @@
                 "open_issues": 96,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 12990,
+                "stars": 12991,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2333,7 +2333,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T04:28:53.658Z",
+    "last_updated": "2026-08-29T11:31:28.322Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list for Awesome Kubernetes Security resources",
