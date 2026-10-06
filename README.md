@@ -68,7 +68,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Kubernetes.io](https://kubernetes.io/)
 
-[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 128,340 | 🐛 3,201 | 🌐 Go | 📅 2026-10-06
+[Kubernetes GitHub](https://github.com/kubernetes/kubernetes) ⭐ 128,348 | 🐛 3,207 | 🌐 Go | 📅 2026-10-06
 
 [Kubernetes Security and Disclosure Information](https://kubernetes.io/docs/reference/issues-security/security/)
 
@@ -358,7 +358,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 ### Defending
 
-[KubeArmor - Cloud-native runtime protection](https://github.com/kubearmor/KubeArmor) ⭐ 2,623 | 🐛 415 | 🌐 Go | 📅 2026-10-06
+[KubeArmor - Cloud-native runtime protection](https://github.com/kubearmor/KubeArmor) ⭐ 2,623 | 🐛 417 | 🌐 Go | 📅 2026-10-06
 
 [Kubescape - Kubernetes is deployed securely according to NSA-CISA and the MITRE ATT\&CK® frameworks](https://github.com/armosec/kubescape) ⭐ 11,768 | 🐛 50 | 🌐 Go | 📅 2026-10-06
 
@@ -380,7 +380,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [kube-bench](https://github.com/aquasecurity/kube-bench) ⭐ 8,215 | 🐛 106 | 🌐 Go | 📅 2026-10-05
 
-[trivy](https://github.com/aquasecurity/trivy) ⭐ 38,253 | 🐛 257 | 🌐 Go | 📅 2026-10-02
+[trivy](https://github.com/aquasecurity/trivy) ⭐ 38,253 | 🐛 257 | 🌐 Go | 📅 2026-10-06
 
 [MKIT](https://github.com/darkbitio/mkit) ⚠️ Archived
 
@@ -410,7 +410,7 @@ To understand about Kubernetes Security you first need to understand the basics 
 
 [Kubernetes Security - Best Practice Guide](https://github.com/freach/kubernetes-security-best-practice) ⭐ 2,706 | 🐛 12 | 📅 2019-09-11
 
-[External Secrets](https://github.com/external-secrets/external-secrets) ⭐ 6,892 | 🐛 330 | 🌐 Go | 📅 2026-10-06
+[External Secrets](https://github.com/external-secrets/external-secrets) ⭐ 6,892 | 🐛 329 | 🌐 Go | 📅 2026-10-06
 
 [kubescape](https://github.com/armosec/kubescape) ⭐ 11,768 | 🐛 50 | 🌐 Go | 📅 2026-10-06
 
