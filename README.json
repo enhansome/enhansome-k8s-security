@@ -18,10 +18,10 @@
                 "language": null,
                 "license": "Apache-2.0",
                 "last_commit": "2025-04-10T06:11:47Z",
-                "open_issues": 57,
+                "open_issues": 56,
                 "owner": "kelseyhightower",
                 "repo": "kubernetes-the-hard-way",
-                "stars": 50691,
+                "stars": 50705,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:13:02.915Z"
@@ -84,7 +84,7 @@
                 "open_issues": 6,
                 "owner": "Vinum-Security",
                 "repo": "kubernetes-security-checklist",
-                "stars": 489,
+                "stars": 490,
                 "topics": [
                   "checklist",
                   "cloud-native-security",
@@ -117,11 +117,11 @@
                 "id": 20580498,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T09:39:53Z",
-                "open_issues": 3263,
+                "last_commit": "2026-11-15T01:34:03Z",
+                "open_issues": 3279,
                 "owner": "kubernetes",
                 "repo": "kubernetes",
-                "stars": 129056,
+                "stars": 129078,
                 "topics": [
                   "cncf",
                   "containers",
@@ -172,11 +172,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -195,11 +195,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -218,11 +218,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -241,11 +241,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -275,7 +275,7 @@
                 "open_issues": 32,
                 "owner": "kodekloudhub",
                 "repo": "certified-kubernetes-administrator-course",
-                "stars": 11025,
+                "stars": 11028,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:13:02.915Z"
@@ -338,7 +338,7 @@
                 "open_issues": 0,
                 "owner": "stackrox",
                 "repo": "Kubernetes_Security_Specialist_Study_Guide",
-                "stars": 432,
+                "stars": 433,
                 "topics": []
               },
               "first_seen": "2026-08-28T17:13:02.915Z"
@@ -624,7 +624,7 @@
                     "open_issues": 27,
                     "owner": "madhuakula",
                     "repo": "kubernetes-goat",
-                    "stars": 5953,
+                    "stars": 5955,
                     "topics": [
                       "blueteam",
                       "cloud-native",
@@ -761,7 +761,7 @@
                     "open_issues": 7,
                     "owner": "ASCIT31",
                     "repo": "Dark-Moon",
-                    "stars": 1231,
+                    "stars": 1238,
                     "topics": [
                       "active-directory",
                       "ai-penetration-testing",
@@ -803,7 +803,7 @@
                     "open_issues": 1,
                     "owner": "quarkslab",
                     "repo": "kdigger",
-                    "stars": 492,
+                    "stars": 493,
                     "topics": [
                       "containers",
                       "kubernetes",
@@ -830,7 +830,7 @@
                     "open_issues": 83,
                     "owner": "aquasecurity",
                     "repo": "kube-hunter",
-                    "stars": 5091,
+                    "stars": 5090,
                     "topics": [
                       "hacktoberfest",
                       "kubernetes-clusters",
@@ -922,7 +922,7 @@
                     "open_issues": 24,
                     "owner": "inguardians",
                     "repo": "peirates",
-                    "stars": 1493,
+                    "stars": 1496,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T17:13:02.915Z"
@@ -947,7 +947,7 @@
                     "language": "Go",
                     "license": "Apache-2.0",
                     "last_commit": "2026-11-13T22:00:49Z",
-                    "open_issues": 473,
+                    "open_issues": 479,
                     "owner": "kubearmor",
                     "repo": "KubeArmor",
                     "stars": 2644,
@@ -980,11 +980,11 @@
                     "id": 395283401,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T11:35:15Z",
-                    "open_issues": 85,
+                    "last_commit": "2026-11-15T11:43:23Z",
+                    "open_issues": 84,
                     "owner": "kubescape",
                     "repo": "kubescape",
-                    "stars": 11895,
+                    "stars": 11909,
                     "topics": [
                       "best-practice",
                       "devops",
@@ -1205,7 +1205,7 @@
                     "open_issues": 60,
                     "owner": "falcosecurity",
                     "repo": "falco",
-                    "stars": 9578,
+                    "stars": 9579,
                     "topics": [
                       "cloud-native",
                       "cncf",
@@ -1290,8 +1290,8 @@
                     "id": 1290665409,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T06:37:36Z",
-                    "open_issues": 70,
+                    "last_commit": "2026-11-15T06:37:41Z",
+                    "open_issues": 65,
                     "owner": "draugr-dev",
                     "repo": "draugr",
                     "stars": 29,
@@ -1335,7 +1335,7 @@
                     "open_issues": 315,
                     "owner": "aquasecurity",
                     "repo": "trivy",
-                    "stars": 39335,
+                    "stars": 39362,
                     "topics": [
                       "containers",
                       "devsecops",
@@ -1499,7 +1499,7 @@
                     "open_issues": 7,
                     "owner": "sysdiglabs",
                     "repo": "kube-psp-advisor",
-                    "stars": 327,
+                    "stars": 328,
                     "topics": [
                       "container-security",
                       "kubernetes",
@@ -1633,10 +1633,10 @@
                     "language": "Ruby",
                     "license": "Apache-2.0",
                     "last_commit": "2026-11-13T17:45:26Z",
-                    "open_issues": 49,
+                    "open_issues": 48,
                     "owner": "appvia",
                     "repo": "krane",
-                    "stars": 749,
+                    "stars": 750,
                     "topics": [
                       "analysis",
                       "k8s",
@@ -1756,7 +1756,7 @@
                     "open_issues": 377,
                     "owner": "external-secrets",
                     "repo": "external-secrets",
-                    "stars": 6948,
+                    "stars": 6949,
                     "topics": [
                       "external-secrets",
                       "hacktoberfest",
@@ -1779,11 +1779,11 @@
                     "id": 395283401,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T11:35:15Z",
-                    "open_issues": 85,
+                    "last_commit": "2026-11-15T11:43:23Z",
+                    "open_issues": 84,
                     "owner": "kubescape",
                     "repo": "kubescape",
-                    "stars": 11895,
+                    "stars": 11909,
                     "topics": [
                       "best-practice",
                       "devops",
@@ -1970,8 +1970,8 @@
                     "id": 1090379351,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-13T21:34:04Z",
-                    "open_issues": 44,
+                    "last_commit": "2026-11-14T22:40:29Z",
+                    "open_issues": 37,
                     "owner": "venslabs",
                     "repo": "vens",
                     "stars": 24,
@@ -2001,10 +2001,10 @@
                     "language": "Python",
                     "license": "AGPL-3.0",
                     "last_commit": "2026-11-14T03:34:16Z",
-                    "open_issues": 174,
+                    "open_issues": 175,
                     "owner": "bunkerity",
                     "repo": "bunkerweb",
-                    "stars": 11266,
+                    "stars": 11267,
                     "topics": [
                       "antibot",
                       "cybersecurity",
@@ -2042,8 +2042,8 @@
                     "id": 1135473716,
                     "language": "TypeScript",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T05:59:37Z",
-                    "open_issues": 35,
+                    "last_commit": "2026-11-15T05:40:21Z",
+                    "open_issues": 43,
                     "owner": "kubestellar",
                     "repo": "console",
                     "stars": 152,
@@ -2063,8 +2063,8 @@
                     "id": 1146314565,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T10:38:14Z",
-                    "open_issues": 24,
+                    "last_commit": "2026-11-15T05:04:49Z",
+                    "open_issues": 22,
                     "owner": "pii-shield",
                     "repo": "pii-shield",
                     "stars": 179,
@@ -2208,8 +2208,8 @@
                     "id": 1276326233,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-14T01:20:21Z",
-                    "open_issues": 7,
+                    "last_commit": "2026-11-14T19:02:26Z",
+                    "open_issues": 3,
                     "owner": "luiacuaniello",
                     "repo": "perspectivegraph",
                     "stars": 9,
@@ -2250,7 +2250,7 @@
                     "id": 1299155700,
                     "language": "HTML",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-11-13T11:37:53Z",
+                    "last_commit": "2026-11-14T14:50:35Z",
                     "open_issues": 0,
                     "owner": "fabiocicerchia",
                     "repo": "cosign-verify-init",
@@ -2348,11 +2348,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2371,11 +2371,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2394,11 +2394,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2438,11 +2438,11 @@
                 "id": 57939112,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T02:44:28Z",
-                "open_issues": 100,
+                "last_commit": "2026-11-14T20:31:57Z",
+                "open_issues": 99,
                 "owner": "kubernetes",
                 "repo": "community",
-                "stars": 13066,
+                "stars": 13067,
                 "topics": [
                   "kubernetes"
                 ]
@@ -2495,7 +2495,7 @@
                     "open_issues": 13,
                     "owner": "ksoclabs",
                     "repo": "awesome-kubernetes-security",
-                    "stars": 970,
+                    "stars": 971,
                     "topics": [
                       "awesome-list",
                       "kubernetes",
@@ -2615,7 +2615,7 @@
                     "language": "JavaScript",
                     "license": "CC0-1.0",
                     "last_commit": "2026-11-12T07:03:32Z",
-                    "open_issues": 1,
+                    "open_issues": 3,
                     "owner": "rootsongjc",
                     "repo": "awesome-cloud-native",
                     "stars": 2554,
@@ -2646,7 +2646,7 @@
                     "open_issues": 9,
                     "owner": "open-policy-agent",
                     "repo": "awesome-opa",
-                    "stars": 903,
+                    "stars": 905,
                     "topics": [
                       "awesome",
                       "awesome-list",
@@ -2675,7 +2675,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-14T11:58:44.239Z",
+    "last_updated": "2026-11-15T12:34:12.060Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list for Awesome Kubernetes Security resources",
